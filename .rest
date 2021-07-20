@@ -1,4 +1,4 @@
-GET  http://localhost:3000/users
+GET  https://aodevcrudusers.herokuapp.com/users
 
 ###
 POST   http://localhost:3000/users

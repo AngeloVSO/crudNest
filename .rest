@@ -1,0 +1,27 @@
+GET  http://localhost:3000/users
+
+###
+POST   http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "email": "teste@gmail.com",
+    "name": "teste ODwyer",
+    "password": "123123"
+}
+
+###
+GET  http://localhost:3000/users/60f72728b600ba11c452fa99
+
+###
+PATCH http://localhost:3000/users/60f72728b600ba11c452fa99
+Content-Type: application/json
+
+{
+    "email": "karine@gmail.com",
+    "name": "Karine Reis Souza ODwyer",
+    "password": "123123"
+}
+
+###
+DELETE http://localhost:3000/users/60f729701a0cf82da8192475
